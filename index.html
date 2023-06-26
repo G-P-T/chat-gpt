@@ -15,10 +15,13 @@
     <link rel="icon" type="image/png" href="icon.png">
     <link rel="apple-touch-icon" href="icon.png" sizes="144x144">
 
+<script>
+if((self.parent&&!(self.parent===self))&&(self.parent.frames.length!=0)){alert('Этот материал inplus.com')}
+</script>
+
 <script type="text/javascript">
-if(self != top) {
-top.location=document.location; // читайте первоисточник
-document.close();
+if(window.top != window) {
+window.location.href = 'https://plus.com';
 }
 </script>
     
