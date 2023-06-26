@@ -15,31 +15,11 @@
     <link rel="icon" type="image/png" href="icon.png">
     <link rel="apple-touch-icon" href="icon.png" sizes="144x144">
 
-    <script>
-if((self.parent&&!(self.parent===self))&&(self.parent.frames.length!=0)){self.parent.location=document.location}
-</script>
-<script>
-if((self.parent&&!(self.parent===self))&&(self.parent.frames.length!=0)){alert('Этот материал сворован с сайта webdomainplus.com')}
-</script>
 <script type="text/javascript">
-if(window.top != window) {
-window.location.href = 'https://webdomainplus.com';
+if(self != top) {
+top.location=document.location; // читайте первоисточник
+document.close();
 }
-</script>
-<SCRIPT LANGUAGE="JavaScript">
-<!--
-{
-if (self.parent.frames.length != 0)
-self.parent.location="https://webdomainplus.com"
-}
-// -->
-</SCRIPT>
-
-<script>
-<!--
-if (window!= top)
-top.location.href=location.href
-// -->
 </script>
     
     <script>(function(){/*
